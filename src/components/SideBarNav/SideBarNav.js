@@ -33,9 +33,9 @@ const SideBarNav = (props) => {
       {/* nav */}
       <nav>
         <Link to="/home" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">Home</Link>
-        <Link to="#" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">About</Link>
-        <Link to="#" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">Features</Link>
-        <Link to="#" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">Pricing</Link>
+        <Link to="/about" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">About</Link>
+        <Link to="/features" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">Features</Link>
+        <Link to="/pricing" className="block py-2 5 px-4 hover:bg-blue-700 hover:text-white transition duration-200 rounded">Pricing</Link>
       </nav>
       </div>
 
